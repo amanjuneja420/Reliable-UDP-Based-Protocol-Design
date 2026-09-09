@@ -1,0 +1,15 @@
+# Build artifacts
+*.o
+*.a
+init
+user1
+user2
+
+# Local-only files
+*.log
+docs/interview-prep.md
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
