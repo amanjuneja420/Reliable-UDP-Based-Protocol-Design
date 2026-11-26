@@ -1,10 +1,10 @@
 # RUDP — Reliable Message Transport over UDP
 
-A message-oriented transport protocol built from scratch on raw UDP sockets,
-giving TCP-like guarantees (in-order delivery, loss recovery) without TCP's
-connection setup and byte-stream overhead. Built as a way to get hands-on
-with sliding-window ARQ, POSIX shared memory, and multithreaded daemon design
-in C.
+A message-oriented, reliable transport protocol built from scratch on top of
+unreliable UDP datagram sockets (`SOCK_DGRAM`), giving TCP-like guarantees
+(in-order delivery, loss recovery) without TCP's connection setup and
+byte-stream overhead. Built as a way to get hands-on with sliding-window ARQ,
+POSIX shared memory, and multithreaded daemon design in C.
 
 ## Why
 
